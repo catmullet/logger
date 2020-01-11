@@ -9,9 +9,9 @@ import (
   
 )
 ```
-## Change the format line 14 of logger.go (optional)
+## Understand the line format
 ```golang
-const logFormat = "[%s][%s] %s %s, (%s)"
+"[%s][%s] %s %s, (%s)"
 ```
 It goes [App Name (Environment variable 'APP')], [Log Level], Message, json object, file and line number)
 

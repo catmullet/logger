@@ -9,7 +9,7 @@ import (
   
 )
 ```
-## Change the format line(14)(optional)
+## Change the format line 14 of logger.go (optional)
 ```golang
 const logFormat = "[%s][%s] %s %s, (%s)"
 ```
